@@ -1,0 +1,12 @@
+.nav-item .active {
+  color: #f5a442 !important;
+}
+
+.navbar {
+  background: var(--bs-gray-800);
+}
+
+h2 {
+  margin-top: 0.8rem;
+  margin-bottom: 0.8rem;
+}
