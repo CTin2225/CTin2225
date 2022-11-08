@@ -14,28 +14,70 @@
   <title>TDN CTin-2225</title>
 </head>
 
-<body class="text-bg-dark h-100 d-flex flex-column">
-  <header class="sticky-top">
-    <nav class="navbar navbar-expand-md navbar-dark border-bottom border-secondary border-opacity-25">
-      <div class="container-fluid" style="max-width: 125rem;">
-        <a href="#" class="navbar-brand fw-semibold">CTin-2225</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbar">
-          <ul class="navbar-nav mw-auto d-flex">
-            <li class="nav-item"><a class="nav-link" href="index.html" id="home" title="Home">Trang chủ</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Thông báo</a></li>
-            <li class="nav-item"><a class="nav-link active" href="#">Lịch kiểm tra</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Tài nguyên</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Luyện tập</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-  <main class="container-fluid flex-grow-1 my-3" style="max-width: 125rem">
-    <div class="row first-row boxRow">
+<body class="text-bg-dark h-100">
+	<header class="sticky-top">
+		<nav class="navbar navbar-expand-md navbar-dark border-bottom border-secondary border-opacity-25">
+			<div class="container-fluid" style="max-width: 125rem;">
+				<a class="navbar-brand fw-semibold" href="index.html">CTin-2225</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbar">
+					<ul class="navbar-nav mw-auto d-flex">
+						<li class="nav-item"><a class="nav-link" href="index.html" id="home" title="Home">
+								<i class="bi-house"></i>
+								&nbsp;Trang chủ
+							</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">
+								<i class="bi-megaphone"></i>
+								&nbsp;Thông báo
+							</a></li>
+						<li class="nav-item"><a class="nav-link active" href="testdates.html">
+								<i class="bi-calendar3-week-fill"></i>
+								&nbsp;Lịch kiểm tra
+							</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">
+								<i class="bi-archive"></i>
+								&nbsp;Tài nguyên
+							</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">
+								<i class="bi-pen"></i>
+								&nbsp;Luyện tập
+							</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+  <main class="container my-3">
+		<table class="table w-100 rounded table-dark table-bordered table-striped table-hover text-center" style="table-layout: fixed">
+			<thead>
+				<tr>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+				</tr>
+			</thead>
+			<tbody class="table-group-divider" style="border-top-color: var(--bs-secondary)">
+				<tr>
+					<td>Monday</td>
+					<td>Tuesday</td>
+					<td>Wednesday</td>
+					<td>Thursday</td>
+					<td>Friday</td>
+				</tr>
+				<tr>
+					<td>Monday</td>
+					<td>Tuesday</td>
+					<td>Wednesday</td>
+					<td>Thursday</td>
+					<td>Friday</td>
+				</tr>
+			</tbody>
+		</table>
+    <!-- <div class="row first-row boxRow">
       <div class="col-1 box"></div>
       <div class="col-1 box"></div>
       <div class="col-1 box"></div>
@@ -79,7 +121,7 @@
       <div class="col-1 box"></div>
       <div class="col-1 box"></div>
       <div class="col-1 box"></div>
-    </div>
+    </div> -->
 
   </main>
 </body>
